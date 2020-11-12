@@ -1,0 +1,24 @@
+package variaveis;
+
+public class ManipulaString {
+
+	public static void main(String[] args) {
+		String email = "xpTo@gMaiL.coM.Br";
+		System.out.println("Original:" + email);
+		System.out.println("Minuscula: " + email.toLowerCase());
+		System.out.println("Maiscula: "  + email.toUpperCase());
+		System.out.println("Quantidade de Caraceters " + email.length());
+		System.out.println("Tem arroba? " + email.contains("@"));
+		System.out.println ("Qual a posição do arroba no e-mail? " + email.indexOf("@"));
+		System.out.println("Do 2° até o 4°: " + email.substring(0,4));
+		// quero que exibam a primeira metade do email.
+		System.out.println("Primeira metade: " + email.substring(0, email.length()/2));
+		// quero que exibam o usuário do email
+		System.out.println("usuário do email: " + email.substring(0, email.indexOf("@")));
+		// quero que exibam o servidor
+		System.out.println("servidor: " + email.substring(email.indexOf("@")+1).toLowerCase());
+		System.out.println("Comparação sem case: " + email.equals("xpto@gmail.com.br"));
+		System.out.println("Comparação com case: " + email.equalsIgnoreCase("xpto@gmail.com.br"));
+	}
+
+}

@@ -1,0 +1,34 @@
+package variaveis;
+
+public class Itau { // a classe deve ter o mesmo nome do arquivo
+	// todo o método vem seguido de parenteses
+	/*
+	 * Comentario 1
+	 * Comentario 2
+	 * Comentario 3...
+	 */
+
+	public static void main(String[] args) {
+		
+		System.out.print("Olá mundo");
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	} // fecha o método
+
+} // fecha a classe

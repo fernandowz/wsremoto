@@ -1,0 +1,14 @@
+package modelo;
+
+public class Tv {
+
+	private int andarAtual;
+	private int andarMaximo;
+	private int andarMinimo;
+	private int capacidadePessoas;
+	
+	
+	
+	
+	
+}

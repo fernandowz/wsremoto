@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\987278721\OneDrive - Banco Itaú SA\Desktop\turma 11c\workspace\.metadata\.plugins\org.eclipse.jdt.core
+239670524.index
+1474688463.index
+1444270623.index
+2296325567.index
+2290215115.index

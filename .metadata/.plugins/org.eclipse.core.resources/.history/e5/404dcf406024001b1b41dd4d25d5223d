@@ -1,0 +1,20 @@
+package implementacao;
+
+import modelo.Elevador;
+
+public class TesteElevador {
+	
+	public static void main(String[] args) {
+		
+	Elevador objeto = new Elevador();
+	
+ objeto.subir();
+ System.out.println(objeto.retornarTudo());
+ 
+	
+	
+	
+	}
+	
+	
+}

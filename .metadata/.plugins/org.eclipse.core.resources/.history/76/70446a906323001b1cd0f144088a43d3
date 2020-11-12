@@ -1,0 +1,42 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioEncadeada {
+
+	public static void main(String[] args) {
+		/*
+		 * Acrescente uma captura de dado, perguntando ao usuario
+		 * se é alfabetizado (1) ou não (0)
+		 * Se ele não for alfabetizado não vota.
+		 * Altere o código abaixo para a melhor estrutura de decisao. 
+		 */
+		String nome = JOptionPane.showInputDialog("Nome").toUpperCase();
+		short alfabetizado = Short.parseShort(JOptionPane.showInputDialog("Alfabetizado"));
+		short idade = Short.parseShort(JOptionPane.showInputDialog("Idade"));
+
+		if (alfabetizado==1) {
+
+			System.out.println(nome + " você pode votar");
+		}else {
+			System.out.println(nome + " você não pode votar");
+
+			if (idade>=18 && idade<=70) {
+
+				System.out.println(nome + " você é obrigado(a) a votar");
+			}	
+
+			if (idade==16 || idade==17 || idade>70 ) {
+
+				System.out.println(nome + " seu voto é facultativo");
+			}	
+
+			if (idade<16) {
+
+				System.out.println(nome + " você ainda não pode votar");
+			}	
+
+
+		}
+	}
+}
