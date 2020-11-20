@@ -1,6 +1,8 @@
 package beans;
 
-public class Produto {
+import util.PadraoProduto;
+
+public class Produto implements PadraoProduto{
 	private String descricao;
 	private float valorVenda;
 	private float valorCompra;
@@ -65,6 +67,18 @@ public class Produto {
 	}
 	public void setQtde(int qtde) {
 		this.qtde = qtde;
+	}
+
+	@Override
+	public float retornarImposto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public float obterValorPromocao(float param) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 

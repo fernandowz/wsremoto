@@ -8,6 +8,7 @@
 <fullyQualifiedTypeName name="br.com.unixyz.beans.Professor"/>
 <fullyQualifiedTypeName name="br.com.unixyz.beans.Endereco"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="util.Magica"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="beans.Cliente"/>
 </qualifiedTypeNameHistroy>

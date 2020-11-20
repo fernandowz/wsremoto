@@ -1,4 +1,4 @@
-package br.com.unixyz.beans;
+package beans;
 
 public class Endereco {
 

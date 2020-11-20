@@ -1,4 +1,4 @@
-package br.com.unixyz.beans;
+package beans;
 
 public class Endereco {
 
@@ -38,13 +38,13 @@ public class Endereco {
 
 		public String getAll() {
 			return
-					"Logradouro" + logradouro  + "\n" +
-					"Numero" + numero + "\n" +
-					"Complemento" + complemento + "\n" +
-					"Bairro" + bairro + "\n"  +
-					"Cidade" + cidade + "\n" +
-					"UF" + uf + "\n" +
-					"CEP" + cep + "\n";
+					"Logradouro: " + logradouro  + "\n" +
+					"Numero: " + numero + "\n" +
+					"Complemento: " + complemento + "\n" +
+					"Bairro: " + bairro + "\n"  +
+					"Cidade: " + cidade + "\n" +
+					"UF: " + uf + "\n" +
+					"CEP: " + cep + "\n";
 		}
 
 		public String getLogradouro() {
